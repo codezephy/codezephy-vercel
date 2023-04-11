@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "postinstall": "./node_modules/.bin/vercel-submodules --all"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codezephy/codezephy-vercel.git"
@@ -16,6 +18,6 @@
   "homepage": "https://github.com/codezephy/codezephy-vercel#readme",
   "dependencies": {
     "express": "^4.18.2",
-    "uuid": "^9.0.0"
+    "vercel-submodules": "^1.0.10"
   }
 }
