@@ -1,0 +1,21 @@
+{
+  "name": "codezephy-vercel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codezephy/codezephy-vercel.git"
+  },
+  "keywords": [],
+  "author": "anachitheu.k@gmail.com",
+  "bugs": {
+    "url": "https://github.com/codezephy/codezephy-vercel/issues"
+  },
+  "homepage": "https://github.com/codezephy/codezephy-vercel#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  }
+}

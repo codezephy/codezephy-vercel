@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/codeload/(.*)", "destination": "/codeload/index.js" },
+    { "source": "(.*)", "destination": "index.js" }
+  ]
+}
