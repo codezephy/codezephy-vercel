@@ -1,6 +1,23 @@
 {
-  "rewrites": [
-    { "source": "/codeload/(.*)", "destination": "/codeload/index.js" },
-    { "source": "(.*)", "destination": "index.js" }
+  "version": 2,
+  "builds": [
+    {
+      "src": "static/*.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(codeload|api)/(.*)",
+      "dest": "/"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/static/index.html"
+    }
   ]
 }
