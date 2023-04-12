@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "postinstall": "./node_modules/.bin/vercel-submodules --all"
+    "postinstall": "./node_modules/.bin/vercel-submodules --all",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
